@@ -1,22 +1,27 @@
 ---
 metadata:
   title: |
-    Massachusetts Eviction Motion to Dismiss
+    docassemble Test
   short title: |
-    Motion to Dismiss
+    Hier testen wir mal anhand eines Tuturials.
   description: |
-    This interview helps you file a motion to dismiss.
+    Vll geht das schneller als ohne Tutorial und hilft trotzdem.
   authors:
-    - name: Quinten Steenhuis
-      organization: Greater Boston Legal Services
-    - name: Rina Padua
-      organization: Greater Boston Legal Services
-  revision_date: 2018-03-23
+    - name: Fritz Steenhuis-Lieb
+      organization: Smallest FfM  Legal Services
+    - name: Gina Padua-Guinea
+      organization: Smallest FfM  Legal Services
+  revision_date: 2021-11-11
 ---
 mandatory: True
 question: |
   Your documents are ready. Please print and file!
+subquestion: |
+  The answer is ${answer}.
 attachment:
   - name: Motion To Dismiss
     filename: Motion to Dismiss
     docx template file: Motion to Dismiss-Original.docx
+---
+code: |
+  answer = 2 + 2
